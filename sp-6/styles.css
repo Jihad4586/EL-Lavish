@@ -1,0 +1,218 @@
+/* Reset default margins, paddings for full page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4f6765;
+}
+
+
+
+
+/* Header styles start here*/
+.header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 50px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.logo img {
+    height: 40px;
+    width: 100%;
+}
+
+.search-bar {
+    align-items: center;
+    margin: 0 20px; 
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 700px;
+    border:none;
+    border-radius: 20px;
+    outline:none;
+}
+
+.header-right a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navbar styles */
+.nav-bar {
+    display: flex;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style:none;
+    margin-left: 20px;
+}
+
+.nav-links li {
+    margin-right: 100px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+/* Header design end here*/
+
+
+
+
+
+
+/* Popular Categories start from here*/
+
+.popular-categories {    /*section design*/
+    text-align: center;
+    margin: 40px 20px ;
+}
+
+.popular-categories h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.category-container {
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    text-align: center;
+    width: 120px;
+}
+
+.category-item img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.category-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* Popular Categories end here*/
+
+
+
+
+
+
+
+
+/* Luxury Products start here */
+.luxury-products {
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fffbdc;
+}
+
+.luxury-products h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.product-category {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    width: 295px ;
+    text-align: center;
+}
+
+.product-item img {
+    width:100%;
+    object-fit: cover;
+}
+
+.product-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* Section Banner Styles */
+.section-banner {
+    width: calc(100% - 80px);
+    height: 300px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.banner-content p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.banner-content button {
+    background-color: rgba(42, 38, 38, 0.611);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* Button hover effects */
+.banner-content button:hover {
+    transform: scale(1.5);
+}
+
+/* Background images */
+.garden-needs {
+    background-image: url('backard.jpg');
+    
+}
+
+.comfort-design {
+    background-image: url('best-furniture.jpg');
+}
